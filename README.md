@@ -25,7 +25,7 @@ HTML5,CSS3,Responsive Design
 
 <a href="https://xbernardoalvez66.github.io/Tablas-de-precios/Tablas-de-precios/Tabla-08/index.html"> Tabla 08 </a>
 
-<a href="https://xbernardoalvez66.github.io/Tablas-de-precios/Tablas-de-precios/Tabla-09/index.html"> Tabla 10 </a>
+<a href="https://xbernardoalvez66.github.io/Tablas-de-precios/Tablas-de-precios/Tabla-09/index.html"> Tabla 09 </a>
 
 <a href="https://xbernardoalvez66.github.io/Tablas-de-precios/Tablas-de-precios/Tabla-10/index.html"> Tabla 10 </a>
 
