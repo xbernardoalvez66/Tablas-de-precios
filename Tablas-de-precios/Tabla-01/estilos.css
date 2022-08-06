@@ -1,0 +1,86 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background: #aaa;
+}
+
+#pricing{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 150px;
+}
+
+
+.precio{
+	position: relative;
+}
+
+.dolar{
+	position: absolute;
+	left: 0px;
+	color: #8e8e8e;
+}
+
+.numero{
+	font-size: 50px;
+	color: #f33e5d;
+}
+
+.mes{
+	color: #8e8e8e;
+	font-size: 13px;
+}
+
+.tabla{
+	background: #fff;
+	padding: 30px;
+}
+
+.caracteristicas{
+	font-size: 14px;
+	color: #8e8e8e;
+}
+
+a{
+	background: violet;
+	color: #fff;
+	padding: 8px 22px;
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.numero2{
+	color: #dc68c3;
+}
+
+.numero3{
+	color: #7c51c1;
+}
+
+#tablados{
+	position: relative;
+	box-shadow: 1px 1px 12px #ccc;
+}
+
+.cuandradosuperior{
+	width: 247px;
+	height: 40px;
+	background: #fff;
+	position: absolute;
+	top: -38px;
+	left: 0px;
+	box-shadow: -2px -4px 5px #ccc;
+
+}
+
+.cuandradoinferior{
+	width: 247px;
+	height: 40px;
+	background: #fff;
+	position: absolute;
+	bottom: -38px;
+	left: 0px;
+	box-shadow: -1px 4px 5px #ccc;
+
+}

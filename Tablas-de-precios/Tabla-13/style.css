@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #ccc;
+}
+
+.pricing-table{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 150px;
+
+}
+
+.pricing-table .column{
+	width: 31.33%;
+	float: left;
+	overflow: hidden;
+	margin-right: 3%;
+	background: #fff;
+	border-radius: 3px;
+	box-sizing: border-box;
+
+}
+
+.pricing-table .column:nth-child(3){
+	margin-right: 0%;
+}
+
+.column .title{
+	background: #16a085;
+	padding: 10px 0;
+
+}
+
+.column .title i{
+	color: #fff;
+	font-size: 50px;
+	margin-bottom: 5px;
+
+}
+
+.column .title h2{
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.column .price{
+	margin-top: 10px;
+}
+
+.column .price{
+	color: #16a085;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.column .price span{
+	color: #16a085;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.column .options ul{
+	margin: 0;
+	padding: 0;
+}
+
+.column .options ul li{
+	list-style: none;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	padding: 15px 0;
+	color: #000;
+	font-size: 16px; 
+}
+
+.column .options ul li:last-child{
+border-bottom: none;
+}
+
+.column .options ul li i{
+	color: #16a085;
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.column .options ul li .fa-times{
+	color: #f00;
+}
+
+.column a{
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 18px;
+padding: 10px 20px;
+display: inline-block;
+background: #16a085;
+margin: 10px 0 20px 0;
+transition: 0.5s;	
+}
+
+.column a:hover{
+background: #00876c;	
+}
+
+@media all and (max-width: 768px){
+	.pricing-table .column{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.pricing-table .container{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
